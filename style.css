@@ -1,0 +1,110 @@
+body{  
+  font-family: "Montserrat", sans-serif;  
+    background-color: rgb(255, 255, 255);
+    background-image:url(./img/walpaper.png) ;
+    background-repeat: no-repeat;
+    background-size: 110%;  
+  }  
+  .container {  
+    padding: 50px;  
+    background-color:#ffffff;
+    transform: translate(-10%, -45%);
+  top: 45%;
+  left: 50%;
+  position: absolute;
+  border-radius: 80px;
+  backdrop-filter: blur(5px);  
+  }
+    h1{
+        color:  rgb(0, 0, 0);
+    }
+  input[type=text], textarea {  
+    width: 80%;  
+    padding: 10px;  
+    margin: 5px 0 15px 0;    
+    border: 10%;
+    border-color: #000000;  
+    background: #ffffff;
+  }  
+  label{
+    color: rgb(0, 0, 0);
+}
+form p {
+  font-weight: 500;
+  color: #000000;
+  opacity: 0.7;
+  font-size: 1.4rem;
+  margin-top: 0;
+  margin-bottom: 60px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+form input {
+  width: 50px;
+  right: -20%;
+  padding: 1em;
+  margin-bottom: 2em;
+  border: none;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5000px;
+  backdrop-filter: blur(5px);
+  box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.2);
+  color: #000000;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+form select{
+  width: 200px;
+  padding: 1em;
+  margin-bottom: 2em;
+  border: none;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5000px;
+  backdrop-filter: blur(5px);
+  box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.2);
+  color: #000000;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+form select:hover{
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 4px 4px 60px 8px rgba(0, 0, 0, 0.2);
+}
+form input:hover {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 4px 4px 60px 8px rgba(0, 0, 0, 0.2);
+}
+  input[type=text]:focus, input[type=password]:focus {    
+    outline: none; 
+  } 
+  input[type=text]:focus, input[type=password]:focus {
+    label{
+        color: white;
+    }
+  }
+   div {  
+              padding: 10px 0;  
+           }  
+  hr {  
+    border: 1px solid #f1f1f1;  
+    margin-bottom: 25px;  
+  }  
+  .registerbtn {  
+    background-color: #444922;  
+    color: white;  
+    padding: 16px 20px;  
+    margin: 8px 0;  
+    border: none;  
+    cursor: pointer;  
+    width: 100%;  
+    opacity: 0.9;  
+  }  
+  .registerbtn:hover {  
+    opacity: 1;
+    color: white;  
+  }  

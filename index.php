@@ -1,4 +1,4 @@
-<?php
+<?php ?>
 <!DOCTYPE html>  
 <html>  
 <head>  
@@ -9,28 +9,29 @@
 <title>Registeration </title>
 </head>  
 <body>  
-<form>  
+<form method="post" action="conn.php">
   <div class="container">  
   <center><h1> Student Registeration Form</h1> </center>  
   <hr>  
   <label> Name: </label>   
-<input type="text" name="firstname" placeholder= "Name" size="15" required />      
+<input type="text" name="name" placeholder= "Name" size="15" required />      
 <div>  
 <label>   
 Course :  
 </label>
-<select>  
+<select name= course>  
 <option value="Course"><p> Course</p></option>  
-<option value="BCA"><p>ICT Diploma</p></option>  
-<option value="BBA"><p> Diploma</p></option>  
-<option value="B.Tech"><p>NVQ Level4 (Motorcylce)</option>  
-<option value="MBA">NCT</option>  
-<option value="MCA">ICT LVL4(Hardware)</option>  
-<option value="M.Tech">ICT LVL4(Graphic Design)</option>  
+<option value="ICT Diploma"><p>ICT Diploma</p></option>  
+<option value="Automobile Diploma"><p>Automobile Diploma</p></option>  
+<option value="NVQ Level4 (Motorcylce)"><p>NVQ Level4 (Motorcylce)</option>  
+<option value="NCT">NCT</option>  
+<option value="ICT LVL4(Hardware)">ICT LVL4(Hardware)</option>  
+<option value="ICT LVL4(Graphic Design)">ICT LVL4(Graphic Design)</option>  
 </select>  
 </div>  
 <div>  
-<label>   
+<label>   <!-- HTML form with radio buttons -->
+
 Gender :  
 </label><br>
 <input type="radio" value="Male" name="gender" checked ><label>Male </label>  
@@ -50,4 +51,3 @@ Phone :
 </form>  
 </body>  
 </html> 
-?>
